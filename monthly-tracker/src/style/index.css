@@ -174,7 +174,7 @@ button {
 }
 
 .block {
-  width: 1200px;
+  width: 900px;
   box-shadow: 3px 3px 6px 3px rgb(192, 192, 192);
   padding: 1.5rem;
   margin: 1rem auto;
@@ -183,10 +183,17 @@ button {
 
 .activity {
   width: 250px;
-  height: 250px;
+  height: 200px;
   background-color: rgb(185, 231, 245);
   text-align: center;
   vertical-align: middle;
+  position: relative;
+}
+
+.data {
+  position: absolute;
+  top: 50px;
+  left: 40%;
 }
 
 .month {
@@ -224,13 +231,12 @@ h2 {
 }
 
 .cross {
-  width: 25px;
-  height: 25px;
-  background-color: rgb(196, 115, 115);
+  background-color: rgb(238, 66, 66);
   color: white;
+  padding: 0.3rem;
   border-radius: 50%;
   position: absolute;
-  right: 10px;
-  top: 10px;
+  right: 8px;
+  top: 8px;
   cursor: pointer;
 }
